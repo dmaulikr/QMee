@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19C44AAA1DF0B7B3003D9B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C44AA91DF0B7B3003D9B91 /* AppDelegate.swift */; };
-		19C44AAC1DF0B7B3003D9B91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C44AAB1DF0B7B3003D9B91 /* ViewController.swift */; };
-		19C44AAF1DF0B7B3003D9B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C44AAD1DF0B7B3003D9B91 /* Main.storyboard */; };
-		19C44AB11DF0B7B3003D9B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C44AB01DF0B7B3003D9B91 /* Assets.xcassets */; };
-		19C44AB41DF0B7B3003D9B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C44AB21DF0B7B3003D9B91 /* LaunchScreen.storyboard */; };
+		529F5D6B1D284F1C00765B6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5D6A1D284F1C00765B6F /* AppDelegate.swift */; };
+		529F5D6D1D284F1C00765B6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5D6C1D284F1C00765B6F /* ViewController.swift */; };
+		529F5D701D284F1C00765B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529F5D6E1D284F1C00765B6F /* Main.storyboard */; };
+		529F5D721D284F1C00765B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529F5D711D284F1C00765B6F /* Assets.xcassets */; };
+		529F5D751D284F1C00765B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529F5D731D284F1C00765B6F /* LaunchScreen.storyboard */; };
+		529F5D7D1D2858EB00765B6F /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5D7C1D2858EB00765B6F /* QuestionBank.swift */; };
+		529F5D7F1D285D3000765B6F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5D7E1D285D3000765B6F /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		19C44AA61DF0B7B3003D9B91 /* QMee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMee.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		19C44AA91DF0B7B3003D9B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19C44AAB1DF0B7B3003D9B91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19C44AAE1DF0B7B3003D9B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		19C44AB01DF0B7B3003D9B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		19C44AB31DF0B7B3003D9B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		19C44AB51DF0B7B3003D9B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529F5D671D284F1C00765B6F /* QMee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		529F5D6A1D284F1C00765B6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		529F5D6C1D284F1C00765B6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		529F5D6F1D284F1C00765B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		529F5D711D284F1C00765B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		529F5D741D284F1C00765B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		529F5D761D284F1C00765B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529F5D7C1D2858EB00765B6F /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		529F5D7E1D285D3000765B6F /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		19C44AA31DF0B7B3003D9B91 /* Frameworks */ = {
+		529F5D641D284F1B00765B6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +39,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19C44A9D1DF0B7B3003D9B91 = {
+		1987F6F71E8511A8006F3424 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				19C44AA81DF0B7B3003D9B91 /* QMee */,
-				19C44AA71DF0B7B3003D9B91 /* Products */,
+				529F5D6E1D284F1C00765B6F /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1987F6F81E8511B2006F3424 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				529F5D6C1D284F1C00765B6F /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1987F6F91E8511BC006F3424 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				529F5D6A1D284F1C00765B6F /* AppDelegate.swift */,
+				529F5D711D284F1C00765B6F /* Assets.xcassets */,
+				529F5D731D284F1C00765B6F /* LaunchScreen.storyboard */,
+				529F5D761D284F1C00765B6F /* Info.plist */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		1987F6FA1E8511C7006F3424 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				529F5D7C1D2858EB00765B6F /* QuestionBank.swift */,
+				529F5D7E1D285D3000765B6F /* GameViewController.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		529F5D5E1D284F1B00765B6F = {
+			isa = PBXGroup;
+			children = (
+				529F5D691D284F1C00765B6F /* QMee */,
+				529F5D681D284F1C00765B6F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		19C44AA71DF0B7B3003D9B91 /* Products */ = {
+		529F5D681D284F1C00765B6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				19C44AA61DF0B7B3003D9B91 /* QMee.app */,
+				529F5D671D284F1C00765B6F /* QMee.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		19C44AA81DF0B7B3003D9B91 /* QMee */ = {
+		529F5D691D284F1C00765B6F /* QMee */ = {
 			isa = PBXGroup;
 			children = (
-				19C44AA91DF0B7B3003D9B91 /* AppDelegate.swift */,
-				19C44AAB1DF0B7B3003D9B91 /* ViewController.swift */,
-				19C44AAD1DF0B7B3003D9B91 /* Main.storyboard */,
-				19C44AB01DF0B7B3003D9B91 /* Assets.xcassets */,
-				19C44AB21DF0B7B3003D9B91 /* LaunchScreen.storyboard */,
-				19C44AB51DF0B7B3003D9B91 /* Info.plist */,
+				1987F6FA1E8511C7006F3424 /* Model */,
+				1987F6F71E8511A8006F3424 /* View */,
+				1987F6F81E8511B2006F3424 /* Controller */,
+				1987F6F91E8511BC006F3424 /* Others */,
 			);
 			path = QMee;
 			sourceTree = "<group>";
@@ -67,13 +105,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		19C44AA51DF0B7B3003D9B91 /* QMee */ = {
+		529F5D661D284F1B00765B6F /* QMee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19C44AB81DF0B7B4003D9B91 /* Build configuration list for PBXNativeTarget "QMee" */;
+			buildConfigurationList = 529F5D791D284F1C00765B6F /* Build configuration list for PBXNativeTarget "QMee" */;
 			buildPhases = (
-				19C44AA21DF0B7B3003D9B91 /* Sources */,
-				19C44AA31DF0B7B3003D9B91 /* Frameworks */,
-				19C44AA41DF0B7B3003D9B91 /* Resources */,
+				529F5D631D284F1B00765B6F /* Sources */,
+				529F5D641D284F1B00765B6F /* Frameworks */,
+				529F5D651D284F1B00765B6F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,27 +119,28 @@
 			);
 			name = QMee;
 			productName = QMee;
-			productReference = 19C44AA61DF0B7B3003D9B91 /* QMee.app */;
+			productReference = 529F5D671D284F1C00765B6F /* QMee.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		19C44A9E1DF0B7B3003D9B91 /* Project object */ = {
+		529F5D5F1D284F1B00765B6F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = Bogdan;
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Developers Academy";
 				TargetAttributes = {
-					19C44AA51DF0B7B3003D9B91 = {
-						CreatedOnToolsVersion = 8.1;
+					529F5D661D284F1B00765B6F = {
+						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = F7AZ625QQ5;
+						DevelopmentTeamName = "Duc Tran";
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 19C44AA11DF0B7B3003D9B91 /* Build configuration list for PBXProject "QMee" */;
+			buildConfigurationList = 529F5D621D284F1B00765B6F /* Build configuration list for PBXProject "qmee" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,54 +148,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 19C44A9D1DF0B7B3003D9B91;
-			productRefGroup = 19C44AA71DF0B7B3003D9B91 /* Products */;
+			mainGroup = 529F5D5E1D284F1B00765B6F;
+			productRefGroup = 529F5D681D284F1C00765B6F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19C44AA51DF0B7B3003D9B91 /* QMee */,
+				529F5D661D284F1B00765B6F /* QMee */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		19C44AA41DF0B7B3003D9B91 /* Resources */ = {
+		529F5D651D284F1B00765B6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C44AB41DF0B7B3003D9B91 /* LaunchScreen.storyboard in Resources */,
-				19C44AB11DF0B7B3003D9B91 /* Assets.xcassets in Resources */,
-				19C44AAF1DF0B7B3003D9B91 /* Main.storyboard in Resources */,
+				529F5D751D284F1C00765B6F /* LaunchScreen.storyboard in Resources */,
+				529F5D721D284F1C00765B6F /* Assets.xcassets in Resources */,
+				529F5D701D284F1C00765B6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		19C44AA21DF0B7B3003D9B91 /* Sources */ = {
+		529F5D631D284F1B00765B6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C44AAC1DF0B7B3003D9B91 /* ViewController.swift in Sources */,
-				19C44AAA1DF0B7B3003D9B91 /* AppDelegate.swift in Sources */,
+				529F5D7F1D285D3000765B6F /* GameViewController.swift in Sources */,
+				529F5D6D1D284F1C00765B6F /* ViewController.swift in Sources */,
+				529F5D6B1D284F1C00765B6F /* AppDelegate.swift in Sources */,
+				529F5D7D1D2858EB00765B6F /* QuestionBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		19C44AAD1DF0B7B3003D9B91 /* Main.storyboard */ = {
+		529F5D6E1D284F1C00765B6F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				19C44AAE1DF0B7B3003D9B91 /* Base */,
+				529F5D6F1D284F1C00765B6F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		19C44AB21DF0B7B3003D9B91 /* LaunchScreen.storyboard */ = {
+		529F5D731D284F1C00765B6F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				19C44AB31DF0B7B3003D9B91 /* Base */,
+				529F5D741D284F1C00765B6F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -164,7 +205,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		19C44AB61DF0B7B3003D9B91 /* Debug */ = {
+		529F5D771D284F1C00765B6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,10 +220,8 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -204,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -214,7 +253,7 @@
 			};
 			name = Debug;
 		};
-		19C44AB71DF0B7B3003D9B91 /* Release */ = {
+		529F5D781D284F1C00765B6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,10 +268,8 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -248,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -257,27 +294,27 @@
 			};
 			name = Release;
 		};
-		19C44AB91DF0B7B4003D9B91 /* Debug */ = {
+		529F5D7A1D284F1C00765B6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F7AZ625QQ5;
 				INFOPLIST_FILE = QMee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.Bogdan.QMee;
+				PRODUCT_BUNDLE_IDENTIFIER = io.bystritskiy.qmee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		19C44ABA1DF0B7B4003D9B91 /* Release */ = {
+		529F5D7B1D284F1C00765B6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F7AZ625QQ5;
 				INFOPLIST_FILE = QMee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.Bogdan.QMee;
+				PRODUCT_BUNDLE_IDENTIFIER = io.bystritskiy.qmee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -286,24 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19C44AA11DF0B7B3003D9B91 /* Build configuration list for PBXProject "QMee" */ = {
+		529F5D621D284F1B00765B6F /* Build configuration list for PBXProject "qmee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				19C44AB61DF0B7B3003D9B91 /* Debug */,
-				19C44AB71DF0B7B3003D9B91 /* Release */,
+				529F5D771D284F1C00765B6F /* Debug */,
+				529F5D781D284F1C00765B6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19C44AB81DF0B7B4003D9B91 /* Build configuration list for PBXNativeTarget "QMee" */ = {
+		529F5D791D284F1C00765B6F /* Build configuration list for PBXNativeTarget "QMee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				19C44AB91DF0B7B4003D9B91 /* Debug */,
-				19C44ABA1DF0B7B4003D9B91 /* Release */,
+				529F5D7A1D284F1C00765B6F /* Debug */,
+				529F5D7B1D284F1C00765B6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 19C44A9E1DF0B7B3003D9B91 /* Project object */;
+	rootObject = 529F5D5F1D284F1B00765B6F /* Project object */;
 }
