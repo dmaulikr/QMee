@@ -8,10 +8,7 @@ class QMeeGame
         "What does 'umbros' mean in Latin? Translate it into Sentinelese.",
         "What’s the first photo printed from a camera in the world?",
         "When was the first email ever sent in the world?",
-        "… and what was that email about?"
     ]
-    
-    var questionImageNames: [String] = ["1", "2", "3", "4", "5", "6"]
     
     var currentQuestionIndex: Int = 0
     var point: Int = 0
@@ -25,10 +22,7 @@ class QMeeGame
         
         return questions[currentQuestionIndex]
     }
-    
-    func getQuestionImageName() -> String {
-        return self.questionImageNames[currentQuestionIndex]
-    }
+
 }
 
 

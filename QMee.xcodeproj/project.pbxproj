@@ -10,10 +10,10 @@
 		529F5D6B1D284F1C00765B6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5D6A1D284F1C00765B6F /* AppDelegate.swift */; };
 		529F5D6D1D284F1C00765B6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5D6C1D284F1C00765B6F /* ViewController.swift */; };
 		529F5D701D284F1C00765B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529F5D6E1D284F1C00765B6F /* Main.storyboard */; };
-		529F5D721D284F1C00765B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529F5D711D284F1C00765B6F /* Assets.xcassets */; };
 		529F5D751D284F1C00765B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529F5D731D284F1C00765B6F /* LaunchScreen.storyboard */; };
 		529F5D7D1D2858EB00765B6F /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5D7C1D2858EB00765B6F /* QuestionBank.swift */; };
 		529F5D7F1D285D3000765B6F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5D7E1D285D3000765B6F /* GameViewController.swift */; };
+		FD417C791F6EB2190082EF81 /* helloImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FD417C781F6EB2190082EF81 /* helloImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +21,11 @@
 		529F5D6A1D284F1C00765B6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		529F5D6C1D284F1C00765B6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		529F5D6F1D284F1C00765B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		529F5D711D284F1C00765B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		529F5D741D284F1C00765B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		529F5D761D284F1C00765B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529F5D7C1D2858EB00765B6F /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		529F5D7E1D285D3000765B6F /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FD417C781F6EB2190082EF81 /* helloImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helloImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				529F5D6A1D284F1C00765B6F /* AppDelegate.swift */,
-				529F5D711D284F1C00765B6F /* Assets.xcassets */,
 				529F5D731D284F1C00765B6F /* LaunchScreen.storyboard */,
 				529F5D761D284F1C00765B6F /* Info.plist */,
+				FD417C781F6EB2190082EF81 /* helloImage.png */,
 			);
 			name = Others;
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 529F5D621D284F1B00765B6F /* Build configuration list for PBXProject "qmee" */;
+			buildConfigurationList = 529F5D621D284F1B00765B6F /* Build configuration list for PBXProject "QMee" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -163,8 +163,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD417C791F6EB2190082EF81 /* helloImage.png in Resources */,
 				529F5D751D284F1C00765B6F /* LaunchScreen.storyboard in Resources */,
-				529F5D721D284F1C00765B6F /* Assets.xcassets in Resources */,
 				529F5D701D284F1C00765B6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		529F5D621D284F1B00765B6F /* Build configuration list for PBXProject "qmee" */ = {
+		529F5D621D284F1B00765B6F /* Build configuration list for PBXProject "QMee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				529F5D771D284F1C00765B6F /* Debug */,

@@ -4,7 +4,6 @@ class GameViewController : UIViewController
 {
     @IBOutlet weak var falseButton: UIButton!
     @IBOutlet weak var pointLabel: UILabel!
-    @IBOutlet weak var questionImageView: UIImageView!
     @IBOutlet weak var questionLabel: UILabel!
     
     var game: QMeeGame = QMeeGame()
@@ -13,8 +12,6 @@ class GameViewController : UIViewController
         super.viewDidLoad()
         
         pointLabel.text = "--"
-        let starterImage = UIImage(named: "2")
-        questionImageView.image = starterImage
         questionLabel.text = "Tap the true button to start a new game!"
         
         // disable the false button when the game just started
@@ -41,11 +38,7 @@ class GameViewController : UIViewController
     }
     
     func updateGame() {
-        let nextQuestion = game.getNextQuestion()
-        let questionImage = game.getQuestionImageName()
-        let image = UIImage(named: questionImage)
-        
-        questionImageView.image = image
+        let nextQuestion = game.getNextQuestion()        
         questionLabel.text = nextQuestion
         pointLabel.text = "\(game.point)"
     }
