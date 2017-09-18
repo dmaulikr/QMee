@@ -54,11 +54,12 @@ class ViewController: UIViewController {
         let correctAnswer = allQuestions.list[questionNumber].answer
         
         if correctAnswer == pickedAnswer {
-            print("Great! Correct.")
+            
+            ProgressHUD.showSuccess("Correct")
             score += 100
         } else {
-            print("Wrong.")
             score -= 50
+            ProgressHUD.showError("Wrong")
         }
         
     }
@@ -76,7 +77,6 @@ class ViewController: UIViewController {
             let restartAction = UIAlertAction(title: "Restart", style: .default, handler: { (UIAlertAction) in
                 self.startOver()
             })
-            
             alert.addAction(restartAction)
             present(alert, animated: true, completion: nil)
             
