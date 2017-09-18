@@ -22,7 +22,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         nextQuestion()
         
     }
@@ -43,9 +42,11 @@ class ViewController: UIViewController {
     
     
     func updateUI() {
+        
         scoreLabel.text = "\(score)"
         progressLabel.text = "\(questionNumber+1)/\(allQuestions.list.count)"
         progressBar.frame.size.width = (view.frame.size.width / 13) * CGFloat(questionNumber + 1)
+        
     }
     
     
@@ -63,6 +64,7 @@ class ViewController: UIViewController {
         }
         
     }
+    
     
     func nextQuestion() {
         

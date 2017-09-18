@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		529F5D6B1D284F1C00765B6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5D6A1D284F1C00765B6F /* AppDelegate.swift */; };
 		529F5D6D1D284F1C00765B6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5D6C1D284F1C00765B6F /* ViewController.swift */; };
-		529F5D701D284F1C00765B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529F5D6E1D284F1C00765B6F /* Main.storyboard */; };
 		529F5D751D284F1C00765B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529F5D731D284F1C00765B6F /* LaunchScreen.storyboard */; };
 		529F5D7D1D2858EB00765B6F /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5D7C1D2858EB00765B6F /* QuestionBank.swift */; };
 		FD434C7D1F702045003C4C6C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD434C7C1F702045003C4C6C /* Question.swift */; };
@@ -17,6 +16,7 @@
 		FD434C8B1F702563003C4C6C /* icon_false-1.png in Resources */ = {isa = PBXBuildFile; fileRef = FD434C881F702563003C4C6C /* icon_false-1.png */; };
 		FD434C8C1F702563003C4C6C /* helloImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FD434C891F702563003C4C6C /* helloImage.png */; };
 		FD434C8E1F7025CF003C4C6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD434C8D1F7025CF003C4C6C /* Images.xcassets */; };
+		FD4F9CF31F703745006EADA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4F9CF11F703745006EADA0 /* Main.storyboard */; };
 		FD633F491F7029FA00DC0F20 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD633F461F7029FA00DC0F20 /* ProgressHUD.bundle */; };
 		FD633F4A1F7029FA00DC0F20 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FD633F481F7029FA00DC0F20 /* ProgressHUD.m */; };
 /* End PBXBuildFile section */
@@ -25,7 +25,6 @@
 		529F5D671D284F1C00765B6F /* QMee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529F5D6A1D284F1C00765B6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		529F5D6C1D284F1C00765B6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		529F5D6F1D284F1C00765B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		529F5D741D284F1C00765B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		529F5D761D284F1C00765B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529F5D7C1D2858EB00765B6F /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		FD434C881F702563003C4C6C /* icon_false-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_false-1.png"; sourceTree = "<group>"; };
 		FD434C891F702563003C4C6C /* helloImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helloImage.png; sourceTree = "<group>"; };
 		FD434C8D1F7025CF003C4C6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD4F9CF21F703745006EADA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD633F451F7029FA00DC0F20 /* QMee-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QMee-Bridging-Header.h"; sourceTree = "<group>"; };
 		FD633F461F7029FA00DC0F20 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		FD633F471F7029FA00DC0F20 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		1987F6F71E8511A8006F3424 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				529F5D6E1D284F1C00765B6F /* Main.storyboard */,
+				FD4F9CF11F703745006EADA0 /* Main.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -192,10 +192,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD4F9CF31F703745006EADA0 /* Main.storyboard in Resources */,
 				FD434C8B1F702563003C4C6C /* icon_false-1.png in Resources */,
 				529F5D751D284F1C00765B6F /* LaunchScreen.storyboard in Resources */,
 				FD633F491F7029FA00DC0F20 /* ProgressHUD.bundle in Resources */,
-				529F5D701D284F1C00765B6F /* Main.storyboard in Resources */,
 				FD434C8E1F7025CF003C4C6C /* Images.xcassets in Resources */,
 				FD434C8A1F702563003C4C6C /* icon_true-1 19-00-57-720.png in Resources */,
 				FD434C8C1F702563003C4C6C /* helloImage.png in Resources */,
@@ -220,20 +220,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		529F5D6E1D284F1C00765B6F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				529F5D6F1D284F1C00765B6F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		529F5D731D284F1C00765B6F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				529F5D741D284F1C00765B6F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FD4F9CF11F703745006EADA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4F9CF21F703745006EADA0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
