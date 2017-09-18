@@ -1,3 +1,10 @@
+//
+//  AppDelegate.swift
+//  QMee
+//
+//  Created by Богдан Быстрицкий on 17.09.17.
+//  Copyright © 2017 Developers Academy. All rights reserved.
+//
 
 
 import UIKit
