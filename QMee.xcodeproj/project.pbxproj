@@ -11,6 +11,7 @@
 		529F5D6D1D284F1C00765B6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5D6C1D284F1C00765B6F /* ViewController.swift */; };
 		529F5D751D284F1C00765B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529F5D731D284F1C00765B6F /* LaunchScreen.storyboard */; };
 		529F5D7D1D2858EB00765B6F /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5D7C1D2858EB00765B6F /* QuestionBank.swift */; };
+		A15AD99E778DC160E32609BB /* Pods_QMee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F895ABFD3305C1947924191C /* Pods_QMee.framework */; };
 		FD434C7D1F702045003C4C6C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD434C7C1F702045003C4C6C /* Question.swift */; };
 		FD434C8A1F702563003C4C6C /* icon_true-1 19-00-57-720.png in Resources */ = {isa = PBXBuildFile; fileRef = FD434C871F702563003C4C6C /* icon_true-1 19-00-57-720.png */; };
 		FD434C8B1F702563003C4C6C /* icon_false-1.png in Resources */ = {isa = PBXBuildFile; fileRef = FD434C881F702563003C4C6C /* icon_false-1.png */; };
@@ -22,12 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5064674862DAA2A7361D2C9A /* Pods-QMee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QMee/Pods-QMee.debug.xcconfig"; sourceTree = "<group>"; };
 		529F5D671D284F1C00765B6F /* QMee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529F5D6A1D284F1C00765B6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		529F5D6C1D284F1C00765B6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		529F5D741D284F1C00765B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		529F5D761D284F1C00765B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529F5D7C1D2858EB00765B6F /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		D4C2E6BD16967B8DBB83EB27 /* Pods-QMee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMee.release.xcconfig"; path = "Pods/Target Support Files/Pods-QMee/Pods-QMee.release.xcconfig"; sourceTree = "<group>"; };
+		F895ABFD3305C1947924191C /* Pods_QMee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD434C7C1F702045003C4C6C /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		FD434C871F702563003C4C6C /* icon_true-1 19-00-57-720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_true-1 19-00-57-720.png"; sourceTree = "<group>"; };
 		FD434C881F702563003C4C6C /* icon_false-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_false-1.png"; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15AD99E778DC160E32609BB /* Pods_QMee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,11 +95,22 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		1FD73594628875F0B0156343 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5064674862DAA2A7361D2C9A /* Pods-QMee.debug.xcconfig */,
+				D4C2E6BD16967B8DBB83EB27 /* Pods-QMee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		529F5D5E1D284F1B00765B6F = {
 			isa = PBXGroup;
 			children = (
 				529F5D691D284F1C00765B6F /* QMee */,
 				529F5D681D284F1C00765B6F /* Products */,
+				1FD73594628875F0B0156343 /* Pods */,
+				EA84F4B69F670E980BFDEF20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +135,14 @@
 			path = QMee;
 			sourceTree = "<group>";
 		};
+		EA84F4B69F670E980BFDEF20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F895ABFD3305C1947924191C /* Pods_QMee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FD434C841F7023E5003C4C6C /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 529F5D791D284F1C00765B6F /* Build configuration list for PBXNativeTarget "QMee" */;
 			buildPhases = (
+				1CC6F0488F2E1327632D3FA5 /* [CP] Check Pods Manifest.lock */,
 				529F5D631D284F1B00765B6F /* Sources */,
 				529F5D641D284F1B00765B6F /* Frameworks */,
 				529F5D651D284F1B00765B6F /* Resources */,
+				1DC81806D9434DB543BDAD57 /* [CP] Embed Pods Frameworks */,
+				1C03A50A2D4A657B5DD943F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,6 +230,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C03A50A2D4A657B5DD943F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMee/Pods-QMee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CC6F0488F2E1327632D3FA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QMee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DC81806D9434DB543BDAD57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QMee/Pods-QMee-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMee/Pods-QMee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		529F5D631D284F1B00765B6F /* Sources */ = {
@@ -330,6 +411,7 @@
 		};
 		529F5D7A1D284F1C00765B6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5064674862DAA2A7361D2C9A /* Pods-QMee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -347,6 +429,7 @@
 		};
 		529F5D7B1D284F1C00765B6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C2E6BD16967B8DBB83EB27 /* Pods-QMee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

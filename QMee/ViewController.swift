@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SCLAlertView
 
 class ViewController: UIViewController {
     
@@ -34,7 +35,6 @@ class ViewController: UIViewController {
         }
         
         checkAnswer()
-        
         questionNumber += 1
         nextQuestion()
     }
@@ -74,13 +74,29 @@ class ViewController: UIViewController {
             updateUI()
             
         } else {
+            
+            if score == allQuestions.list.count * 100 {
 
-            let alert = UIAlertController(title: "Awesome", message: "You've finished all questions. Do you want to start over?", preferredStyle: .alert)
-            let restartAction = UIAlertAction(title: "Restart", style: .default, handler: { (UIAlertAction) in
+            let appearance = SCLAlertView.SCLAppearance(
+                showCloseButton: false
+            )
+            let alertView = SCLAlertView(appearance: appearance)
+            alertView.addButton("Restart") {
                 self.startOver()
-            })
-            alert.addAction(restartAction)
-            present(alert, animated: true, completion: nil)
+            }
+            alertView.showSuccess("Awesome", subTitle: "You've finished all questions. Your score is \(score). Do you want to start over?")
+                
+            } else {
+                
+                let appearance = SCLAlertView.SCLAppearance(
+                    showCloseButton: false
+                )
+                let alertView = SCLAlertView(appearance: appearance)
+                alertView.addButton("Restart") {
+                    self.startOver()
+                }
+                alertView.showError("Failure", subTitle: "You've finished all questions. Your score is \(score). Do you want to start over?")
+            }
             
         }
     }
@@ -90,6 +106,10 @@ class ViewController: UIViewController {
         questionNumber = 0
         score = 0
         nextQuestion()
+        
+    }
+    
+    func ruleGames () {
         
     }
     
