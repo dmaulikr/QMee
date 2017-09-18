@@ -24,7 +24,7 @@
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jt-vZ-0yH">
                                 <rect key="frame" x="91" y="454" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="icon_true-1.png"/>
+                                <state key="normal" image="icon_true-1 19-00-57-720.png"/>
                                 <connections>
                                     <action selector="answerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MXm-iU-A1o"/>
                                 </connections>
@@ -109,6 +109,6 @@
     </scenes>
     <resources>
         <image name="icon_false-1.png" width="625" height="634"/>
-        <image name="icon_true-1.png" width="625" height="634"/>
+        <image name="icon_true-1 19-00-57-720.png" width="625" height="634"/>
     </resources>
 </document>
