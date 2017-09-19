@@ -15,7 +15,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var progressBar: UIView!
     @IBOutlet weak var progressLabel: UILabel!
+    @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var trueLabel: UILabel!
+    @IBOutlet weak var trueButton: UIButton!
+    @IBOutlet weak var falseLabel: UILabel!
+    @IBOutlet weak var falseButton: UIButton!
     
+    @IBOutlet weak var addQuestionsButton: UIButton!
     let allQuestions = QuestionBank()
     var pickedAnswer : Bool = false
     var questionNumber : Int = 0
@@ -23,8 +29,23 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        nextQuestion()
+        startNewGame(startGameBool: true)
         
+    }
+    
+    
+    @IBAction func addQuestionsDidTapped(_ sender: Any) {
+        
+        addNewQuestion()
+        
+    }
+    
+    
+    @IBAction func startButtonDidTapped(_ sender: Any) {
+        nextQuestion()
+        startNewGame(startGameBool: false)
+        ruleGames()
+
     }
     
     @IBAction func answerPressed(_ sender: AnyObject) {
@@ -43,7 +64,7 @@ class ViewController: UIViewController {
     
     func updateUI() {
         
-        scoreLabel.text = "\(score)"
+        scoreLabel.text = "Score: \(score)"
         progressLabel.text = "\(questionNumber+1)/\(allQuestions.list.count)"
         progressBar.frame.size.width = (view.frame.size.width / 13) * CGFloat(questionNumber + 1)
         
@@ -55,7 +76,6 @@ class ViewController: UIViewController {
         let correctAnswer = allQuestions.list[questionNumber].answer
         
         if correctAnswer == pickedAnswer {
-            
             ProgressHUD.showSuccess("Correct")
             score += 100
         } else {
@@ -75,6 +95,7 @@ class ViewController: UIViewController {
             
         } else {
             
+            scoreLabel.text = "Score: \(score)"
             if score == allQuestions.list.count * 100 {
 
             let appearance = SCLAlertView.SCLAppearance(
@@ -84,7 +105,10 @@ class ViewController: UIViewController {
             alertView.addButton("Restart") {
                 self.startOver()
             }
-            alertView.showSuccess("Awesome", subTitle: "You've finished all questions. Your score is \(score). Do you want to start over?")
+            alertView.addButton("Back to Menu") {
+                self.viewDidLoad()
+            }
+            alertView.showSuccess("Awesome", subTitle: "You've finished all questions. Your score is \(score).")
                 
             } else {
                 
@@ -95,7 +119,10 @@ class ViewController: UIViewController {
                 alertView.addButton("Restart") {
                     self.startOver()
                 }
-                alertView.showError("Failure", subTitle: "You've finished all questions. Your score is \(score). Do you want to start over?")
+                alertView.addButton("Back to Menu") {
+                    self.viewDidLoad()
+                }
+                alertView.showError("Failure", subTitle: "You've finished all questions. Your score is \(score).")
             }
             
         }
@@ -111,6 +138,8 @@ class ViewController: UIViewController {
     
     func ruleGames () {
         
+        SCLAlertView().showInfo("Rule", subTitle: "For correct answer you get 100 points. For incorrect deducted 50 points. The goal of the game to score \(allQuestions.list.count*100) points")
+        
     }
     
     
@@ -118,6 +147,42 @@ class ViewController: UIViewController {
         
         super.didReceiveMemoryWarning()
         
+    }
+    
+    func addNewQuestion() {
+        // Add a text field
+        let appearance = SCLAlertView.SCLAppearance(
+            showCloseButton: false
+        )
+        let alert = SCLAlertView(appearance: appearance)
+        let question = alert.addTextField("Question")
+        let answerStringNotBool = alert.addTextField("True or False")
+        alert.addButton("To add") {
+            let answerBool = answerStringNotBool.text?.lowercased()
+            let returnValue = answerBool! == "true" || answerBool == "1" || answerBool == "yes"
+            self.allQuestions.list.append(Question(text: question.text!, correctAnswer: returnValue))
+        }
+        alert.showEdit("To add new question", subTitle: "")
+    }
+    
+    
+    //if startGameBool = true , then was been start game
+    //if startGameBool = false, then was been start game from button 'back to menu'
+    func startNewGame(startGameBool: Bool) {
+        score = 0
+        questionNumber = 0
+        
+        startButton.isHidden = !startGameBool
+        addQuestionsButton.isHidden = !startGameBool
+    
+        questionLabel.isHidden = startGameBool
+        progressLabel.isHidden = startGameBool
+        progressBar.isHidden = startGameBool
+        scoreLabel.isHidden = startGameBool
+        trueButton.isHidden = startGameBool
+        trueLabel.isHidden = startGameBool
+        falseButton.isHidden = startGameBool
+        falseLabel.isHidden = startGameBool
     }
     
 }
